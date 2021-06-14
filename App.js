@@ -5,6 +5,13 @@ import Inicio from './Components/Inicio.js'
 import Navigation from './Components/Navigation'
 import NavLow from './Components/NavLow'
 
+import {NavigationContainer} from '@react-navigation/native'
+import {createStackNavigator} from '@react-navigation/stack'
+
+ const Stack = createStackNavigator()
+
+
+
 export default function App() {
   return (
     <View /* style={styles.container}*/ >
